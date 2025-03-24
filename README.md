@@ -1,12 +1,29 @@
-# React + Vite
+# Typing Test for Developers
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web-based typing speed test designed for developers. Practice typing code snippets in various programming languages, track your words per minute (WPM), accuracy, and mistakes, and improve your coding efficiency.
 
-Currently, two official plugins are available:
+## Live Demo
+Try it out here: [SyntaxTyper](https://syntaxtyper.netlify.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Supports multiple languages: Python, JavaScript, Java, C#, C++, PHP, TypeScript, Swift, Go, Kotlin, and mixed examples
+- Customizable test duration (15s, 30s, 60s, 120s)
+- Adjustable number of sentences (1 to 20)
+- Real-time stats: WPM, time remaining, and mistake count
+- Visual feedback with correct/incorrect character highlighting
+- Results summary with accuracy percentage
+- Reset test with Ctrl+R shortcut
 
-## Expanding the ESLint configuration
+## How to Use
+1. Open the app in a browser or visit the [live demo](https://syntaxtyper.netlify.app).
+2. Select your preferred language, time, and sentence count in the options.
+3. Start typing the displayed code snippet.
+4. View your results when the time runs out or you finish typing.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Files
+- `TypingTest.jsx`: Main component with logic and UI
+- `TypingTest.css`: Styling for the application
+- `words.js`: Code snippet examples for each language
+- `App.jsx`: Entry point
+
+Built with React and CSS. Created by Zatrudnilov.
